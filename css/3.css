@@ -1,0 +1,24 @@
+.outer {
+    border: 5px solid black;
+}
+
+.box2 {
+    padding: 10px;
+    width: calc(500px - 30px);
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.box {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(0.8turn);
+}
+
+@media (min-width: 30em) {
+    body {
+        background-color: blue;
+    }
+}
