@@ -1,0 +1,13 @@
+.notebox{
+    border: 4px solid #666;
+}
+
+.notebox.warning{
+    border-color: orange;
+    font-weight: bold;
+}
+
+.notebox.danger{
+    border-color: red;
+    font-weight: bold;
+}
