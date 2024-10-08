@@ -1,0 +1,11 @@
+a:link{
+    color: orange;
+}
+
+a:visited {
+    color: green; /* 已访问的链接为绿色 */
+}
+a:hover{
+    text-decoration: none; /* 鼠标悬停时移除下划线 */
+
+}
