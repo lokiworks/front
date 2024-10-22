@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Example</title>
+    <style>
+        .box {
+            border: 5px solid rebeccapurple;
+            background-color: lightgray;
+            padding: 40px;
+            margin: 40px;
+            width: 300px;
+            height: 150px;
+        }
+
+        .alternate {
+            box-sizing: border-box;
+            width: 390px;
+            /* 300px + (40px padding * 2) + (5px border * 2) */
+            height: 240px;
+            /* 150px + (40px padding * 2) + (5px border * 2) */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">I use the standard box model.</div>
+    <div class="box alternate">I use the alternate box model.</div>
+</body>
+
+</html>
